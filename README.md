@@ -16,5 +16,10 @@ https://will-wagura.github.io/my-personal-website/
 * Basic Programming Knowledge on JavaScript/HTML
 * Visual studio as Code Editor
 
+## Features to be added
+* Projects tab
+* Nav Bar update
+* Animations
+
 ## CopyRight and License Information
 &copy; 2024 Will Wagura. All rights reserved.
