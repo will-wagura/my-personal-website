@@ -5,7 +5,7 @@ This website is created to introduce you to who I am and some of my skills
 William Ndirangu
 
 ## Live link
-
+https://will-wagura.github.io/my-personal-website/
 
 ## Technologies Used
 * HTML
