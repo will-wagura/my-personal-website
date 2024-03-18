@@ -1,3 +1,5 @@
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css')
+
 * {
   margin: 5px;
   padding: 0;
@@ -5,8 +7,9 @@
 }
 
 body {
-  font-family: Poppins;
-  background: bisque;
+  font-family: "Poppins";
+  color: #edf0f1;
+  background-color: #24252a;
 }
 
 img {
@@ -16,39 +19,122 @@ img {
   float: left;
   border: 2px solid #fff;
   margin-right: 25px;
+  margin-left: 80px;
 }
 
 header {
-  color: #333;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10%;
+  align-items: center;
+  color: #edf0f1;
+  background: #333;
+  border-radius: 15px;
 }
 
-nav ul {
+h1 {
+  margin-right: auto;
+}
+
+.nav_links {
   list-style-type: none;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
 }
 
-nav ul li a {
-  color: #333;
+.nav_links li a {
+  transition: all 0.3s ease 0s;
   text-decoration: none;
+  color: #edf0f1;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #edf0f1;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: rgba(0,136,169,0.5);
 }
 
 main {
   padding: 20px;
 }
 
-section {
-  margin-bottom: 40px;
+#about {
+  height: 420px;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#about p {
+  text-align: center;
+}
+
+.text-box {
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  float: right;
+  margin-right: 250px;
+  margin-top: 75px;
+}
+
+#skills h2 {
+  text-align: center;
+}
+
+#skills div {
+  margin: auto;
+  width: 15%;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 20px;
+  float: right;
+  text-align: center;
+  margin-right: 120px;
+}
+
+#skills {
+  height: 200px;
+}
+
+#contact {
+  text-align: center;
 }
 
 footer {
-  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px, 0;
+}
+
+.fi {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.email_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.email_link:hover {
+  color: #0088a9;
 }
